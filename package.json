@@ -1,0 +1,42 @@
+{
+  "name": "Wordpress Scaffolder",
+  "description": "Wordpress project scaffolding tool",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jonathan-fielding/Wordpress-Scaffolder",
+  "author": {
+    "name": "Jonathan Fielding",
+    "email": "j.fielding@me.com",
+    "url": "http://www.jonathanfielding.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jonathan-fielding/Wordpress-Scaffolder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathan-fielding/Wordpress-Scaffolder/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonathan-fielding/Wordpress-Scaffolder/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/wp",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "wp" : "lib/wp.js"
+  }
+}
