@@ -1,5 +1,5 @@
 {
-  "name": "Wordpress Scaffolder",
+  "name": "WP-Scaffold",
   "description": "Wordpress project scaffolding tool",
   "version": "0.0.1",
   "homepage": "https://github.com/jonathan-fielding/Wordpress-Scaffolder",
@@ -28,6 +28,10 @@
   "scripts": {
     "test": "grunt nodeunit"
   },
+  "dependencies": {
+    "shelljs": "~0.0.6",
+    "prompt": "~0.2.11"
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
@@ -37,6 +41,6 @@
   "keywords": [],
   "preferGlobal": "true",
   "bin": {
-    "wp" : "lib/wp.js"
+    "wp": "lib/wp.js"
   }
 }
