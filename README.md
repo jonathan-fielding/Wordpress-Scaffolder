@@ -1,4 +1,4 @@
-# wp
+# Wordpress Scaffolder
 
 Wordpress project scaffolding tool
 
